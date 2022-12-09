@@ -69,7 +69,7 @@ public class Main {
         month = 31;
         while (dayOfMonth <= month) {
             for (int dayOfWeek = 1; dayOfWeek <= 7; dayOfWeek++) {
-                if(dayOfMonth<31) {
+                if (dayOfMonth < 31) {
                     if (dayOfWeek == 5) {
                         System.out.println("Сегодня пятница, " + dayOfMonth + "-е число. Необходимо подготовить отчет");
                     }
@@ -81,12 +81,12 @@ public class Main {
         System.out.println("task 7:");
         int start = 0;
         int year = 2022;
-        int min = year-200;
-        int max = year+100;
+        int min = year - 200;
+        int max = year + 100;
         int near = 79;
-        while (start<3000){
-            start+=near;
-            if(start>=min&&start<=max){
+        while (start < 3000) {
+            start += near;
+            if (start >= min && start <= max) {
                 System.out.println(start);
             }
         }
