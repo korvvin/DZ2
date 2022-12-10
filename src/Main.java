@@ -88,6 +88,7 @@ public class Main {
             start += near;
             if (start >= min && start <= max) {
                 System.out.println(start);
+
             }
         }
     }
